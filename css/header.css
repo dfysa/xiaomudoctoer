@@ -1,0 +1,143 @@
+/* header区域 */
+
+.header-top {
+    /* 版心宽度 */
+    width: 1200px;
+    margin: 0 auto;
+    /* 清除浮动 */
+    overflow: hidden;
+}
+
+.header-top .logo {
+    background-image: url(/images/小慕医生@1x.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 35px;
+    width: 187px;
+    height: 43px;
+}
+
+ .header-top .logo h1 {
+    width: 192px;
+    height: 63px;
+    color: #00978E;
+    font-size: 48px;
+}
+
+ .header-top .tool {
+    float: right;
+    width: 266px;
+    height: 70px;
+    padding-top: 35px;
+}
+
+.header-top  .a1 {
+    position: relative;
+}
+
+ .header-top .tel {
+    width: 32px;
+    height: 25px;
+}
+
+ .header-top  .telnumber {
+    font-size: 20px;
+    color: #00978E;
+    display: inline-block;
+    width: 158px;
+    height: 26px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+}
+
+ .header-top  .a1 .icon {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+ .header-top  .chinese_icon {
+    margin-right: 14px;
+}
+.a2{
+    margin-top: 6px;
+}
+
+ .header-top  .a2 {
+    position: relative;
+    width: 264px;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, .6);
+}
+
+
+
+ .header-top .a2 input {
+
+    float: left;
+    width: 216px;
+    height: 28px;
+    /* 去掉边框线 */
+    border: none;
+    padding-left: 20px;
+    /* 去掉鼠标点击时外围线 */
+    outline: none;
+}
+
+ .header-top  .a2 button {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    /* 背景去掉 */
+    background: none;
+    /* 边框去掉 */
+    border: none;
+    /* 去掉鼠标点击时外围线 */
+    outline: none;
+    /* 设置触碰时鼠标指针样式 */
+    cursor: pointer;
+}
+
+.main-nav {
+    /* 不用写宽度，自动撑满 */
+    height: 60px;
+    background-color: #00978E;
+    margin: 12px auto;
+}
+
+ .main-nav ul {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+ .main-nav ul li {
+    float: left;
+    width: 150px;
+    text-align: center;
+    /* 行高等于盒子高 */
+    line-height: 60px;
+}
+
+ .main-nav ul li.cur {
+    background-color: #015E58;
+}
+
+ .main-nav ul li a {
+    /* 转为块级元素 */
+    display: block;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    color: white;
+}
+
+ .main-nav ul li a:hover {
+    background-color: orange;
+}
+
