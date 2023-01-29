@@ -93,18 +93,13 @@
     position: absolute;
     top: 50%;
     margin-top: -10px;
-    /* 背景去掉 */
     background: none;
-    /* 边框去掉 */
     border: none;
     /* 去掉鼠标点击时外围线 */
     outline: none;
-    /* 设置触碰时鼠标指针样式 */
-    cursor: pointer;
 }
 
 .main-nav {
-    /* 不用写宽度，自动撑满 */
     height: 60px;
     background-color: #00978E;
     margin: 12px auto;
@@ -120,7 +115,6 @@
     float: left;
     width: 150px;
     text-align: center;
-    /* 行高等于盒子高 */
     line-height: 60px;
 }
 
