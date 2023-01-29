@@ -1,0 +1,77 @@
+ .dep-info {
+    height: 410px;
+    padding-top: 39px;
+    background-color: #FAFAFA;
+    
+}
+
+ .dep-info .center {
+    width: 1202px;
+    height: 371px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+ .dep-info .center .more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #999999;
+}
+
+ .dep-info .center .dep-content .col {
+    float: left;
+    width: 263px;
+    padding-left: 37px;
+}
+
+ .dep-info .center .dep-content .col h4 {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+ .dep-info .center .dep-content .col h4::before {
+    content: '';
+    position: absolute;
+    left: 61px;
+    top: 12px;
+    width: 40px;
+    height: 2px;
+    background-color: #00978E;
+}
+
+ .dep-info .center .dep-content .col h4::after {
+    content: '';
+    position: absolute;
+    left: 163px;
+    top: 12px;
+    width: 40px;
+    height: 2px;
+    background-color: #00978E;
+}
+
+ .dep-info .center .dep-content .col li {
+    float: left;
+    width: 119px;
+    height: 34px;
+    border: 1px solid #AAA9A9;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 21px;
+    margin-bottom: 25px;
+}
+
+ .dep-info .center .dep-content .col li:nth-child(2n) {
+    margin-right: 0;
+}
+
+ .dep-info .center .dep-content .col li a {
+    color: #000000;
+}
+
+ .dep-info .center .dep-content .col li a.active {
+    color: #00978E;
+}

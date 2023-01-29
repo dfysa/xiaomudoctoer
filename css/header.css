@@ -24,7 +24,7 @@
     font-size: 48px;
 }
 
- .header-top .tool {
+ .header-top .tool-1 {
     float: right;
     width: 266px;
     height: 70px;
@@ -107,7 +107,7 @@
     /* 不用写宽度，自动撑满 */
     height: 60px;
     background-color: #00978E;
-    margin: 12px auto;
+    margin-top: 12px ;
 }
 
  .main-nav ul {
