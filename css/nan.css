@@ -20,11 +20,10 @@
 
  .news-and-notice .news h3 {
     color: black;
-    font-weight: normal;
     margin-bottom: 27px;
-    width: 64px;
     height: 21px;
     font-size: 16px;
+    line-height: 19px;
 }
 
  .news-and-notice .news .news-content .hot-news {
@@ -74,11 +73,11 @@
 
  .news-and-notice .notice h3 {
     color: black;
-    font-weight: normal;
-    margin-bottom: 16px;
-    width: 64px;
+    margin-bottom: 19px;
+    width: 200px;
     height: 21px;
     font-size: 16px;
+    line-height: 19px;
 }
 
  .news-and-notice .notice ol li {

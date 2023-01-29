@@ -1,0 +1,53 @@
+.exp-int{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+
+}
+.exp-int h3{
+    line-height: 19px;
+    color: black;
+}
+
+.exp-int .more{
+    position:absolute;
+    right: 0;
+    top: 0;
+    color: black;
+}
+
+.exp-int ul{
+    overflow: hidden;
+
+
+}
+
+.exp-int ul li{
+    float: left;
+    width: 384px;
+    height: 190px;
+    margin-bottom:58px ;
+    margin-left:19px ;
+}
+
+.exp-int ul li:first-child {
+    margin-left: 0;
+}
+.exp-int ul li:nth-child(4){
+    margin-left: 0;
+}
+
+.exp-int ul li .img{
+    float: left;
+    width: 152px;
+}
+
+.exp-int ul li .info {
+    float: left;
+    width: 220px;
+    padding-left:12px ;
+    line-height: 28px;
+    color: black;
+}
+

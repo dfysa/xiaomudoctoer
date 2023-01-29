@@ -14,6 +14,12 @@
     position: relative;
 }
 
+ .dep-info .center h3 {
+    line-height: 19px;
+
+ }
+
+
  .dep-info .center .more {
     position: absolute;
     right: 0;
