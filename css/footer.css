@@ -1,0 +1,60 @@
+.footer{
+    background-color: #FAFAFA;
+}
+
+.footer .center{
+    
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 67px;
+}
+
+.footer .center .friend-links h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.footer .center .friend-links ul{
+    padding-left: 52px;
+    padding-bottom: 30px;
+        
+
+}
+
+.footer .center .friend-links ul li {
+    float: left;
+    width: 64px;
+    height: 21px;
+    padding-right: 100px;
+}
+
+
+.footer .center .friend-links ul li a {
+    font-size: 16px;
+    color: black;
+}
+
+
+.footer .center .address h3{
+    font-size: 20px;
+    padding-bottom: 18px;
+    color: black;
+}
+
+.footer .center .address ul{
+    overflow: hidden;
+    width: 711px;
+}
+
+
+.footer .center .address ul li{
+    
+    width: 237px;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: black;
+
+}
