@@ -19,6 +19,7 @@
 }
 
  .news-and-notice .news h3 {
+    color: black;
     font-weight: normal;
     margin-bottom: 27px;
     width: 64px;
@@ -72,6 +73,7 @@
 }
 
  .news-and-notice .notice h3 {
+    color: black;
     font-weight: normal;
     margin-bottom: 16px;
     width: 64px;

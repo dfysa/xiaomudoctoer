@@ -6,6 +6,7 @@
 }
 
  .dep-info .center {
+    color: black;
     width: 1202px;
     height: 371px;
     margin: 0 auto;
@@ -17,7 +18,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    color: #999999;
+    color: black;
 }
 
  .dep-info .center .dep-content .col {
